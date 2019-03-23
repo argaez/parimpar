@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Hola</h1>
+    <% 1.upto(50) do |i| %>
+       <% if i%2 == 0%>
+		<h2> <%= "#{i} Soy Par!" %> </h2><br>
+		<% else %>
+		<h2><%= "#{i} Soy Impar!" %> </h2><br>
+		<% end %>
+	<% end %>
+  </body>
+</html>
